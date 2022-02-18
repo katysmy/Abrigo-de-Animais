@@ -1,0 +1,117 @@
+
+body{
+    background-color: rgb(224, 217, 217);
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+}
+
+.primeiro{
+    background-image: url(../imagens/cachorrosnocarro.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position:center;
+    border: 1px solid transparent;
+}
+
+.cabeçalho h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-shadow: 5px 3px 4px gray;
+    margin: 98px 0px 0px 0px;
+}
+
+.cabeçalho p{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.658);
+    margin: 3% 35% 0% 35%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+.lista-1 li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 15px 0px 0px ;
+}
+
+.lista-1 a{
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.438);
+}
+
+a:hover{
+    background-color: rgba(128, 128, 128, 0.884);
+}
+
+.lista-1{
+    text-align: right;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.seção{
+    padding: 10px;
+    margin-top: 15px;
+    background-color: white;
+    overflow: auto;
+}
+
+.seção img{
+    display: block;
+}
+
+.card-1, .card-2, .card-3{
+    float: left;
+    margin:0px 74px 0px 72px;
+}
+
+.card-1, .card-2 {
+    margin-right: 2px;
+}
+
+.card-1, .card-3, .card-2 p{
+background-color: rgb(80, 78, 78);
+color: white;
+text-align: center;
+text-transform: uppercase;
+}
+
+.card-2, .card-3 p{
+    background-color: rgb(80, 78, 78);
+}
+
+.conteúdo p{
+    text-indent: 23px;
+    padding: 0px 45px 0px 35px;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.conteúdo h1{
+    background-color: rgb(224, 221, 221);
+    border-bottom: 2px solid rgb(199, 199, 199);
+    padding: 10px 10px 10px 19px;
+    font-size: 23px;
+    color: rgb(39, 38, 38);
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    padding: 1px;
+    margin-top: 7px;
+}
